@@ -1,1 +1,86 @@
 
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000;
+}
+header{
+    width: 75%;
+    height: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.Logo_left{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Logo_left_menu{
+    background-color: #000;
+    border: none;
+}
+.Logo_left_search{
+    background-color: #000;
+    border: none;
+}
+.Logo_right{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+.Logo_right_btn_premium{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    border: none;
+    color: white;
+}
+.Logo_right_btn_premium:hover{
+    color: orangered; 
+}
+.Logo_right_Log_in{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    border: none;
+    color: white;
+}
+.Logo_right_Log_in:hover{
+    color: orangered;
+}
+main{
+    width: 75%;
+    height: 100%;
+    padding-top: 5%;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Navigation{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: aqua;
+}
+.Navigation_pages button{
+    width: 33%;
+    font-size: 75px;
+    background-color: #d44949;
+    border: none;
+    color: white;
+}
